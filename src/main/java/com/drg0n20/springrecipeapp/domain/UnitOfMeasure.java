@@ -1,8 +1,11 @@
 package com.drg0n20.springrecipeapp.domain;
 
-import lombok.*;
+import lombok.Data;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Data
 @Entity
@@ -13,7 +16,7 @@ public class UnitOfMeasure {
     private Long id;
     private String description;
 
-    @OneToOne
-    private Ingredient ingredient;
+//    @OneToOne
+//    private Ingredient ingredient;
 
 }

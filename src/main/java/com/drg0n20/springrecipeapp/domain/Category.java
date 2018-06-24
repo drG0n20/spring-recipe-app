@@ -1,6 +1,7 @@
 package com.drg0n20.springrecipeapp.domain;
 
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.util.Set;
